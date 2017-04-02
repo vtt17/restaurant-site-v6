@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Home Page </title>
+		<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<link href="bootstrap.css" rel="stylesheet" />
+		<link href="../font/glyphicons-halflings-regular.eot" rel="stylesheet" />	
+	</head>
+	
+	<body>
+		<div class="title">
+			<h1><span class="highlight"> Good </span> Food Restaurant </h1>
+		</div>
+		
+		<div class="pagelink">
+			<ul class="nav nav-tabs">
+				<li><a href="restaurant-p1.html"><span class="glyphicon glyphicon-home"></span></a></li>
+				<li><a href="restaurant-p2.html"> Menu </a></li> 
+				<li><a href="restaurant-p3.html">  Contact Us </a></li>
+			</ul>
+		</div>
+
+		<div class="contactUs">
+			<form action="fakePage.html" method="POST">
+			<div class="container">  
+				<div class="row">
+					<div class="col col-sm-6 col-md-6">
+						<p class="inquiry"> Name: </p>
+					</div>
+					<div class="col col-sm-6 col-md-6">
+						<p id="box"><input type="text" name="name"/></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-sm-6 col-md-6">
+						<p class="inquiry"> Email: </p>
+					</div>
+					<div class="col col-sm-6 col-md-6">
+						<p id="box"><input type="text" name="email"/> </p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-sm-6 col-md-6">
+						<p class="inquiry"> Phone: </p>
+					</div>
+					<div class="col col-sm-6 col-md-6">
+						<p id="box"><input type="text" name="phone"/></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-sm-6 col-md-6">
+						<p class="inquiry"> Reason for Inquiry: </p>
+					</div>
+					<div class="col col-sm-6 col-md-6">
+						<p id="box">
+							<select name="reason">
+								<option value="catering"> Catering </option>
+								<option value="party"> Private Party </option>
+								<option value="feedback"> Feedback </option>
+								<option value="other"> Other </option>
+							</select>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-sm-6 col-md-6">
+						<p class="inquiry"> Additional Information: </p>
+					</div>
+					<div class="col col-sm-6 col-md-6">
+						<p id="box"><textarea name="addtionalInfo"></textarea></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-sm-6 col-md-6">
+						<p class="inquiry"> Have you been to the restaurant? </p>
+					</div>
+					<div class="col col-sm-6 col-md-6">
+						<p id="box">
+							<input type="radio" name="visit" value="no" checked /> No 
+							<input type="radio" name="visit" value="yes" /> Yes 
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-sm-6 col-md-6">
+						<p class="inquiry"> Best days to contact you: </p>
+					</div>
+					<div class="col col-sm-6 col-md-6">
+						<p id="box">
+							<input type="checkbox" name="contactday" value="monday"/> M
+							<input type="checkbox" name="contactday" value="tuesday"/> T
+							<input type="checkbox" name="contactday" value="wednesday"/> W
+							<input type="checkbox" name="contactday" value="thursday"/> Th
+							<input type="checkbox" name="contactday" value="friday"/> F
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-sm-6 col-md-6">
+						<!-- blank column -->
+					</div>
+					<div class="col col-sm-6 col-md-6">
+						<p id="submitbox"><input type="submit" value="Send Request"/></p>
+					</div>
+				</div>
+			</div>   
+			</form>
+		</div>
+		
+		<footer class="addressinfo">
+			<p>	1234 Food Now Street, Akron, Ohio 44444 <br/>
+				222-333-4444 
+			</p>
+		</footer>
+	</body>
+</html>

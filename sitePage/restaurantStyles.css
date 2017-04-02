@@ -1,0 +1,145 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.title {
+	min-height: 70px;
+	background-color: #0B0B61;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-bottom: #a8491d 3px solid;
+	font-family: Arial black, courier, sans-serif;
+	font-style: italic;
+}
+.highlight {
+	color: #FF0040;
+}
+#myCarousel .carousel-inner{
+	font-size: 25px;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	background-color: #FDEDEC;
+}
+.errorMessage {
+	font-size: 20px;
+	color: red;
+}
+.pagelink {
+	min-height: 30px;
+	background-color: white;
+	border-bottom: #a8491d 3px solid;
+	padding-left: 40px;
+	padding-right: 40px;
+	}
+.pagelink a {
+	color: #B40404;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.pagelink a:visited {
+	color: #9400D3;
+}
+.pagelink a:hover {
+	font-weight: bold;
+}
+.restaurantInfo {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	background-color: #F2F2F2;
+
+}
+.restaurantInfo img {
+	padding-bottom: 30px;
+}
+.restaurantInfo h4 {
+	font-weight: bold;
+	color: #0B0B61;
+}
+#food {
+	background-color: #F2F2F2;
+	padding-bottom: 50px;
+}
+#food .container .row {
+	text-align: center;
+	border-bottom: 5px #F8F8FF solid;
+}
+#food h3 {
+	color: red;
+}
+#food .container .row .col {
+	min-height: 230px;
+	border-right: 5px #F8F8FF solid;
+}
+#drink {
+	padding-bottom: 50px;
+	background-color: #F2F2F2;
+	text-align: center;
+}
+#drink .table thead th{
+	font-size: 25px;
+	color: #0000CD;
+	text-align: center;
+}
+#drink .table tbody tr:nth-child(even){
+	background-color: #F2F2F2;
+}
+#drink tbody tr:nth-child(odd) {
+  background-color: #F8F8FF;
+}
+#drink .table, #drink .table th, #drink .table td {
+	border: 5px #FFFFFF solid;
+}
+#drink .table {
+	max-width: 350px;
+	margin: auto;
+}
+.addressinfo {
+	text-align: center;
+	padding-bottom: 1px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #0B0B61;
+	color: white;
+}
+.contactUs {
+		background-color: #F2F2F2;
+		padding-top: 50px;
+		padding-bottom: 80px;
+}
+.contactUs .container .row .inquiry {
+	text-align: right;
+	font-weight: bold;
+
+}
+.contactUs .container .row #submitbox {
+	padding-left: 100px;
+	padding-top: 20px;
+}
+.contactUs .container .row {
+	padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 767px){
+	#food .container .row .col{
+		min-height: 100px;
+		border: none;
+	}													/* adjusting the look of webpage when screen is small */
+	#food .container .row {
+	border-bottom: none;
+	}
+	.contactUs .container .row .inquiry {
+	text-align: left;
+	padding-left: 20px;
+	}
+	.contactUs .container .row #box {
+	padding-left: 20px;
+	}
+	.contactUs .container .row {
+		padding-bottom: 0px;
+		margin: none;
+	}
+}

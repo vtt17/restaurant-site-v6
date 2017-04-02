@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Home Page </title>
+		<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<link href="bootstrap.css" rel="stylesheet" />
+		<link href="../font/glyphicons-halflings-regular.eot" rel="stylesheet" />	<!-- this bootstrap font file must be one folder above the html file in order for it to work -->
+	</head>
+	
+	<body>
+		<noscript>
+			<div class="error message">
+			<div class="container">
+				<p class="errorMessage"> <strong> Notice: </strong> Our site is best viewed with JavaScript. Please enable JavaScript.</p>
+			</div> 
+			</div>
+		</noscript>
+		
+		<div class="title">
+			<h1><span class="highlight"> Good </span> Food Restaurant </h1>
+		</div>
+	
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">												<!-- Indicators -->
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol> 
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<div class="container">
+						<h1>Big News</h1>
+						<p> We're opening a new location!</p>
+						<p> 3456 State Road, Akron, OH 44444 </p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="container">
+						<p class="caption2"> We're rolling out our seasonal menu, with special options for this season. </p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="container">
+						<p class="caption3"> The Drink of the Month is SG Special Brew. </p>
+					</div>
+				</div>
+			</div>																					
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">			<!-- left and right arrow -->
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a> 
+		</div>
+	
+		<div class="pagelink">
+			<ul class="nav nav-tabs">
+				<li><a href="restaurant-p1.html"><span class="glyphicon glyphicon-home"></span></a></li>
+				<li><a href="restaurant-p2.html"> Menu </a></li> 
+				<li><a href="restaurant-p3.html">  Contact Us </a></li>
+			</ul>
+		</div>
+		
+		<div class="restaurantInfo">
+			<div class="container">
+				<div class="row">
+					<div class="col col-sm-2 col-md-3 col-lg-3">
+						<!--blank column-->
+					</div>
+					<div class="col col-sm-8 col-md-6 col-lg-6">				
+						<img src="homepagepic.jpg" 
+								alt="Home Page Picture" 
+								style="width: 100%;"/>
+						<p>
+							<h4>Restaurant description: </h4>
+							Welcome to our restaurant page. Here you will find what our restaurant has to offer.
+							Our goal is to provide the best food quality and customer service experience to our customers. 
+						</p>	
+					</div>
+					<div class="col col-sm-2 col-md-3 col-lg-3">
+						<!--blank column-->
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="addressinfo">
+			<p>	1234 Food Now Street, Akron, Ohio 44444 <br/>
+				222-333-4444 
+			</p>
+		</footer>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+	</body>
+</html>
